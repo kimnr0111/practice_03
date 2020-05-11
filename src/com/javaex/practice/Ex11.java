@@ -6,22 +6,20 @@ public class Ex11 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i, j, sum = 0;
+		int num, sum = 0;
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("숫자를 입력하세요");
-		i = sc.nextInt();
+		num = sc.nextInt();
 		
-		if(i%2 == 0) {
-			for(j=0;j<=i;j=j+2) {
-				sum = sum + j;
-			}
-		} else {
-			for(j=1;j<=i;j=j+2) {
-				sum = sum + j;
-			}
+		for(int i=num;i>0;) {
+			sum = sum + i;
+			i--;
+			i--;
 		}
-		
+
+		sc.close();
+
 		System.out.println("결과값: " + sum);
 
 	}
