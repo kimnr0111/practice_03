@@ -22,6 +22,8 @@ public class Ex16 {
 		
 		System.out.println("5의배수의 개수: " + num_count);
 		System.out.println("5의배수의 합: " + sum);
+		
+		sc.close();
 
 	}
 

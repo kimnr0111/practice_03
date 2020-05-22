@@ -49,17 +49,6 @@ public class Ex20 {
 			
 		}
 		
-		
-		/*
-		String aaa = "n";
-		System.out.println("입력");
-		exit = sc.next();
-		
-		if(exit.contentEquals(aaa)) {
-			System.out.println(exit);
-		}
-		*/
-		
 	}
 
 }

@@ -16,7 +16,9 @@ public class Ex13 {
 			sum = sum + j;
 		}
 		
-		System.out.println("합계: " + sum);
+		System.out.println("1에서" + i + "까지 누적합계: " + sum);
+		
+		sc.close();
 
 	}
 
